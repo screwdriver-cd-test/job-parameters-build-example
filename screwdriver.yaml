@@ -17,7 +17,7 @@ jobs:
         value: ["use1-az1", "use1-az2"]
         description: "availability zone"
     steps:
-      - step_print_pramaeters: |
+      - step_print_parameters: |
           echo skip_test = $(meta get parameters.skip_test)
           echo test_coverage = $(meta get parameters.test_coverage)
           echo region = $(meta get parameters.region)
@@ -31,7 +31,7 @@ jobs:
         value: ["usw2-az1", "usw2-az2"]
         description: "availability zone"
     steps:
-      - step_print_pramaeters: |
+      - step_print_parameters: |
           echo skip_test = $(meta get parameters.skip_test)
           echo test_coverage = $(meta get parameters.test_coverage)
           echo region = $(meta get parameters.region)
